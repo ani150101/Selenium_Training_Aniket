@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test" thread-count="5" parallel="classes">
+	<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="Testing.LoginTest" />
+			<class name="Testing.CreateUserTest" />
+			<class name="Testing.AssertionDemo" />
+			<class name="Testing.SignupFormTest" />
+			<class name="Testing.CrossBrowserTesting" />
+			<class name="Testing.SmokeDemo" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

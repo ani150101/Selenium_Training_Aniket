@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Janita, janita@gmail.com:Abcd@1234]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-23T15:50:05 IST" name="Suite" finished-at="2022-11-23T15:50:22 IST" duration-ms="16988">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T15:50:05 IST" name="Test" finished-at="2022-11-23T15:50:22 IST" duration-ms="16988">
+      <class name="Testing.SignupFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.SignupFormTest@4e52d2f2]" started-at="2022-11-23T15:50:05 IST" name="setup" finished-at="2022-11-23T15:50:13 IST" duration-ms="7553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillForm()[pri:1, instance:Testing.SignupFormTest@4e52d2f2]" started-at="2022-11-23T15:50:13 IST" name="fillForm" finished-at="2022-11-23T15:50:18 IST" duration-ms="5168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Janita, janita@gmail.com:Abcd@1234]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method signature="login()[pri:3, instance:Testing.SignupFormTest@4e52d2f2]" started-at="2022-11-23T15:50:18 IST" name="login" finished-at="2022-11-23T15:50:21 IST" depends-on-methods="Testing.SignupFormTest.fillForm" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testing.SignupFormTest@4e52d2f2]" started-at="2022-11-23T15:50:21 IST" name="teardown" finished-at="2022-11-23T15:50:21 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.SignupFormTest -->
+      <class name="Testing.CrossBrowserTesting">
+        <test-method signature="loginTest(java.lang.String)[pri:0, instance:Testing.CrossBrowserTesting@12608986]" started-at="2022-11-23T15:50:05 IST" name="loginTest" finished-at="2022-11-23T15:50:14 IST" duration-ms="8845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testing.CrossBrowserTesting -->
+      <class name="Testing.CreateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.CreateUserTest@55e1192]" started-at="2022-11-23T15:50:05 IST" name="setup" finished-at="2022-11-23T15:50:09 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser()[pri:0, instance:Testing.CreateUserTest@55e1192]" started-at="2022-11-23T15:50:09 IST" name="createUser" finished-at="2022-11-23T15:50:21 IST" duration-ms="11949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="SignInWithNewUser()[pri:6, instance:Testing.CreateUserTest@55e1192]" started-at="2022-11-23T15:50:21 IST" name="SignInWithNewUser" finished-at="2022-11-23T15:50:22 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInWithNewUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testing.CreateUserTest@55e1192]" started-at="2022-11-23T15:50:22 IST" name="teardown" finished-at="2022-11-23T15:50:22 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.CreateUserTest -->
+      <class name="Testing.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:05 IST" name="setup" finished-at="2022-11-23T15:50:14 IST" duration-ms="8219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsernameNoPassword()[pri:1, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:14 IST" name="invalidUsernameNoPassword" finished-at="2022-11-23T15:50:14 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameNoPassword -->
+        <test-method signature="noUsernameNoPassword()[pri:1, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:14 IST" name="noUsernameNoPassword" finished-at="2022-11-23T15:50:14 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUsernameNoPassword -->
+        <test-method signature="noUsernamePassword()[pri:1, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:14 IST" name="noUsernamePassword" finished-at="2022-11-23T15:50:14 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUsernamePassword -->
+        <test-method signature="validUsernameInvalidPassword()[pri:1, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:14 IST" name="validUsernameInvalidPassword" finished-at="2022-11-23T15:50:15 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method signature="validUsernameValidPassword()[pri:2, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:15 IST" name="validUsernameValidPassword" finished-at="2022-11-23T15:50:19 IST" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testing.LoginTest@2c35e847]" started-at="2022-11-23T15:50:19 IST" name="teardown" finished-at="2022-11-23T15:50:20 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.LoginTest -->
+      <class name="Testing.SmokeDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:05 IST" name="setup" finished-at="2022-11-23T15:50:14 IST" duration-ms="8288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgotPassword()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:14 IST" name="verifyForgotPassword" finished-at="2022-11-23T15:50:14 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method signature="verifySocialMediaCount()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:14 IST" name="verifySocialMediaCount" finished-at="2022-11-23T15:50:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySocialMediaCount -->
+        <test-method signature="verifyTitle()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:14 IST" name="verifyTitle" finished-at="2022-11-23T15:50:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyUrl()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:14 IST" name="verifyUrl" finished-at="2022-11-23T15:50:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testing.SmokeDemo@4882b9a]" started-at="2022-11-23T15:50:14 IST" name="teardown" finished-at="2022-11-23T15:50:14 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.SmokeDemo -->
+      <class name="Testing.AssertionDemo">
+        <test-method signature="test1()[pri:0, instance:Testing.AssertionDemo@6637a365]" started-at="2022-11-23T15:50:05 IST" name="test1" finished-at="2022-11-23T15:50:05 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Testing.AssertionDemo@6637a365]" started-at="2022-11-23T15:50:05 IST" name="test2" finished-at="2022-11-23T15:50:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:Testing.AssertionDemo@6637a365]" started-at="2022-11-23T15:50:05 IST" name="test3" finished-at="2022-11-23T15:50:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:Testing.AssertionDemo@6637a365]" started-at="2022-11-23T15:50:05 IST" name="test4" finished-at="2022-11-23T15:50:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:Testing.AssertionDemo@6637a365]" started-at="2022-11-23T15:50:05 IST" name="test5" finished-at="2022-11-23T15:50:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- Testing.AssertionDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-11-23T15:50:22 IST" name="Suite (0)" finished-at="2022-11-23T15:50:29 IST" duration-ms="6423">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T15:50:22 IST" name="TestChrome" finished-at="2022-11-23T15:50:26 IST" duration-ms="4148">
+      <class name="Testing.CrossBrowserTesting">
+        <test-method signature="loginTest(java.lang.String)[pri:0, instance:Testing.CrossBrowserTesting@356f20b7]" started-at="2022-11-23T15:50:22 IST" name="loginTest" finished-at="2022-11-23T15:50:26 IST" duration-ms="4148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testing.CrossBrowserTesting -->
+    </test> <!-- TestChrome -->
+    <test started-at="2022-11-23T15:50:22 IST" name="TestEdge" finished-at="2022-11-23T15:50:26 IST" duration-ms="4196">
+      <class name="Testing.CrossBrowserTesting">
+        <test-method signature="loginTest(java.lang.String)[pri:0, instance:Testing.CrossBrowserTesting@35f760a4]" started-at="2022-11-23T15:50:22 IST" name="loginTest" finished-at="2022-11-23T15:50:26 IST" duration-ms="4196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testing.CrossBrowserTesting -->
+    </test> <!-- TestEdge -->
+    <test started-at="2022-11-23T15:50:22 IST" name="TestFF" finished-at="2022-11-23T15:50:29 IST" duration-ms="6423">
+      <class name="Testing.CrossBrowserTesting">
+        <test-method signature="loginTest(java.lang.String)[pri:0, instance:Testing.CrossBrowserTesting@6d6f6ca9]" started-at="2022-11-23T15:50:22 IST" name="loginTest" finished-at="2022-11-23T15:50:29 IST" duration-ms="6423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testing.CrossBrowserTesting -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [BrowserStackSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test5(failed)">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Ventura"/>
+    <parameter name="browserVersion" value="100"/>
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="Testing.TestingBrowserStack">
+        <methods>
+          <include name="windows8"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testing.TestingBrowserStack -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browserVersion" value="107"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="Testing.TestingBrowserStack">
+        <methods>
+          <include name="windows8"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testing.TestingBrowserStack -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="100"/>
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="Testing.TestingBrowserStack">
+        <methods>
+          <include name="windows8"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testing.TestingBrowserStack -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test4(failed)">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Ventura"/>
+    <parameter name="browserVersion" value="102"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="Testing.TestingBrowserStack">
+        <methods>
+          <include name="windows8"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testing.TestingBrowserStack -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browserVersion" value="105"/>
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="Testing.TestingBrowserStack">
+        <methods>
+          <include name="windows8"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testing.TestingBrowserStack -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [BrowserStackSuite] -->
